@@ -1,0 +1,87 @@
+@charset "utf-8";
+
+
+/* 网站宏观设定 */
+body {
+    font-family: Arial, Helvetica, sans-serif, "宋体", "黑体", "楷体", "华文行楷";
+    overflow-y: scroll;
+    background-image: url('./02l.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+body,div {
+    margin: 0;
+    padding: 0;
+}
+img {border: 0;}
+ul {list-style: none;}
+
+header{
+    background-color: rgba(248, 244, 244, 0.405);
+    display: flex;
+    justify-content: center;
+}
+
+.header{
+    width: 1024px;
+    height: 20%;
+    display: inherit;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.header ul {
+    float: right;
+    align-content: center;
+}
+
+.header li {
+    width: 40px;
+    height: 40px;
+}
+
+.main {
+    text-align: center;
+}
+
+/* 博客消息样式 */
+.news-area {
+    width: 700px;
+    height: 600px;
+    margin-left: 200px;
+}
+.news-box {
+    max-width: 700px;
+    height: 500px;
+    margin: 7px auto 0;
+    overflow-y: scroll;
+}
+.news-area h2 {
+	max-width: 650px;
+	margin: 5px auto 5px 3px;
+	padding-top: 15px;
+    margin-left: 50px;
+}
+
+.news-box ul li{
+    max-width: 500px;
+    margin: 30px auto 30px 30px;
+}
+
+.news-time{
+    display: block;
+    padding-top: 10px;
+    border-top: 1px solid #333333;
+}
+
+.pagebottom {
+    margin: 5px 0 0;
+    width: auto;
+    padding: 5px 0;
+    font-size: 15px;
+    background-color: #23233460;
+    color:azure;
+    text-align: center;
+    position: static;
+}
